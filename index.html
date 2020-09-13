@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<title>イントロドン</title>
+		<!--<link rel="stylesheet" href="sample.css">-->
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+		<![endif]-->
+		<script src="js/script.js"></script>
+	</head>
+
+	<body>
+		<p>
+            <input type="button" value="1秒ドン！" onclick="onDonButtonClick(1);"/>
+            <input type="button" value="2秒ドン！" onclick="onDonButtonClick(2);"/>
+            <input type="button" value="3秒ドン！" onclick="onDonButtonClick(3);"/>
+        </p>
+
+        <p>
+            <input type="button" value="答え！" onclick="onAnswerButtonClick();"/>
+        </p>
+
+        <p id="answer">
+        </p>
+
+        <p>
+            <input type="button" value="次の曲" onclick="window.location.reload();" />
+        </p>
+	</body>
+</html>
